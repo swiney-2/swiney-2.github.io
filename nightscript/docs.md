@@ -1,6 +1,6 @@
 ## NS_STACK
 ``` csharp
- <void> NS_CLEAR_OPT 
+ <void> NS_CLEAR_OPT()
  
  //Clears the console/output
 ```
@@ -12,7 +12,7 @@
 ```
 
 ``` csharp
- <void> CIN
+ <void> CIN()
  
  //Prompts a character input
 ```
