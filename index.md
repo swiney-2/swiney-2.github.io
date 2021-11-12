@@ -16,6 +16,4 @@ Nightscript is a basic coding language base developed in C# ASP.NET
 
 ## DiscordWebHook.NET
 
-A C# Discord API wrapper, not many functions but you can modify as you want
-
-[src](https://github.com/swiney-2/DiscordWebHook.NET)
+A C# Discord API wrapper, not many functions but you can modify as you want [src](https://github.com/swiney-2/DiscordWebHook.NET)
