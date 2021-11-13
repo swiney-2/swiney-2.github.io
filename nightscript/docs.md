@@ -208,3 +208,20 @@ Time library
             }
             //Different days
 ```
+
+## Process
+
+Process API
+
+```csharp
+ <void> PROCESS_KILL(<string> proc)
+ //Kills/ends <string> proc
+ ```
+```csharp
+ <void> START_PROC(<string> path)
+ //Starts a .exe file located at <string> path
+```
+```csharp
+ <bool> RETURN_PROC_EXISTS(<string> procname)
+ // Returns a boolean value of a process existing under the name of <string> procname
+```
