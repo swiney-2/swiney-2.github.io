@@ -127,3 +127,23 @@ NS_CRYPT.BASE64
 <bool> RETURN_FILE_EXISTS(<string> FilePath)
 //Returns a boolean value of a file existing at <string> FilePath
 ```
+
+## NS_HTTP
+
+Http client
+
+```csharp
+ <string> LOAD_STRING_URL(<Uri> Url)
+ //Returns the content of <Uri>
+```
+```csharp
+<enum> HTTP_REQ_TYPE { 
+          GET,
+          DELETE,
+        }
+        //The supported Http methods, add/remove as you like
+```
+```csharp
+ HTTP_REQ(<Uri> Url, <HTTP_REQ_TYPE> Method)
+ //Sends Http request <HTTP_REQ_TYPE> to <Uri>
+```
