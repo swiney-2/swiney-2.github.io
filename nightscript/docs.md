@@ -69,7 +69,6 @@ NS_CRYPT.BASE64
 <string> DECODE_NEW(<string> Data)
 
 //Returns a decoded string of a Base64 encoded string
-
 ```
 
 ## NS_FILE_SYS
@@ -179,7 +178,8 @@ Http client
         //The different types of MessageBoxIcons
 ```
 ```csharp
- <void> NEW(<string> text, <string> label, <NS_MESSAGEBOX_BUTTON> button) {
+ <void> NEW(<string> text, <string> label, <NS_MESSAGEBOX_BUTTON> button) 
+ //Creates a new NS_MESSAGEBOX
 ```
 
 ## NS_TIME
