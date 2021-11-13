@@ -61,3 +61,59 @@ NS_CRYPT.BASE64
 //Returns a decoded string of a Base64 encoded string
 
 ```
+
+## NS_FILE_SYS
+
+
+``` csharp
+ <string> FILESYS_READFILE(<string> Path)
+ //Returns the raw text of a file located at <string> Path
+```
+
+
+``` csharp
+ <bool> FILESYS_FILE_EXISTS(<string> DirectoryPath)
+ //Returns the true or false value of a file existing at <string> DirectoryPath
+```
+
+
+``` csharp
+ <void> DIRECTORY_DEL(<string> Path)
+ //Deletes directory at <string> Path
+```
+
+
+``` csharp
+<void> FILESYS_APPEND_TEXT(<string> Path, <string> Data)
+//Appends the text <string> Data to file located at <string> Path
+```
+
+
+``` csharp
+<void> DIRECTORY_NEW(<string> Path)
+//Creates a directory at <string> Path
+```
+
+
+``` csharp
+<void> FILE_WRITE(<string> Path, <string> Data)
+//Writes text <string> Data at file <string> Path
+```
+
+
+``` csharp
+<void> FILE_NEW(<string> path)
+//Creates a new file at <string> Path
+```
+
+
+``` csharp
+<void> FILE_DELETE(<string> FilePath)
+//Deletes file located at <string> FilePath
+```
+
+
+``` csharp
+<bool> RETURN_FILE_EXISTS(<string> FilePath)
+//Returns a boolean value of a file existing at <string> FilePath
+```
