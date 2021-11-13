@@ -144,7 +144,7 @@ Http client
         //The supported Http methods, add/remove as you like
 ```
 ```csharp
- HTTP_REQ(<Uri> Url, <HTTP_REQ_TYPE> Method)
+ <void> HTTP_REQ(<Uri> Url, <HTTP_REQ_TYPE> Method)
  //Sends Http request <HTTP_REQ_TYPE> to <Uri>
 ```
 
@@ -180,4 +180,31 @@ Http client
 ```
 ```csharp
  <void> NEW(<string> text, <string> label, <NS_MESSAGEBOX_BUTTON> button) {
+```
+
+## NS_TIME
+
+Time library
+
+
+```csharp
+ <string> NS_TIME_NOW()
+ //Returns the current time
+```
+```csharp
+ void TIME_WAIT<T>(T Amount)
+ //Waits <Amount>
+```
+```csharp
+ <enum> NS_DATE_DAY
+            {
+                NS_DATE_DAY_MONDAY,
+                NS_DATE_DAY_TUESDAY,
+                NS_DATE_DAY_WEDNESDAY,
+                NS_DATE_DAY_THURSDAY,
+                NS_DATE_DAY_FRIDAY,
+                NS_DATE_DAY_SATURDAY,
+                NS_DATE_DAY_SUNDAY
+            }
+            //Different days
 ```
