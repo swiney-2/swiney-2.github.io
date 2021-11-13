@@ -1,3 +1,13 @@
+## Nightscript Documentation
+
+## About
+
+Nightscript is a project I made for fun, I was bored a couple months ago and wanted to try to recreate Lua in C#, which eventually changed into making my own language, which eventually changed into making a language base to customize.
+
+## Code 
+
+You can find the whole source code here: https://github.com/swiney-2/Nightscript
+
 ## NS_STACK
 
 A stack/console library
