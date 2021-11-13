@@ -147,3 +147,37 @@ Http client
  HTTP_REQ(<Uri> Url, <HTTP_REQ_TYPE> Method)
  //Sends Http request <HTTP_REQ_TYPE> to <Uri>
 ```
+
+## NS_MESSAGEBOX
+
+
+```csharp
+<enum> NS_MESSAGEBOX_BUTTON
+        {
+            TXTALRT_OK,
+            TXTALRT_OKCANCEL,
+            TXTALRT_YESNO,
+            TXTALRT_YESNOCANCEL,
+            TXTALRT_ABORT_RETRY_IGNORE,
+            TXTALRT_RETRY_CANCEL,
+        }
+        //The different types of MessageBoxButtons
+```
+```csharp
+ <enum> NS_MESSAGEBOX_ICON
+        { 
+         TXTALRT_NONE,
+         TXTALRT_HAND,
+            TXTALRT_QUESTION,
+            TXTALRT_EXLAMATION,
+            TXTALRT_ASTERISK,
+            TXTALRT_STOP,
+            TXTALRT_WARNING,
+            TXTALRT_ERROR,
+            TXTALRT_INFORMATION,
+        }
+        //The different types of MessageBoxIcons
+```
+```csharp
+ <void> NEW(<string> text, <string> label, <NS_MESSAGEBOX_BUTTON> button) {
+```
