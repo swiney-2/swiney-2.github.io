@@ -26,7 +26,7 @@ A stack/console library
 
 ``` csharp
  <void> CIN()
- 3
+
  //Prompts a character input
 ```
 
