@@ -22,7 +22,7 @@ Note: You NEED to set these in Settings.cs before doing anything further
         <string> Message; //The message the WebHook it will send
         <string> Username; //The username of the WebHook
         <Uri> ProfilePicture; //The profile picture of the WebHook
-        ```
+```
 ```csharp
  <void> SendMessage()
  //Sends a message, all of the contents are set in Settings.cs
@@ -35,3 +35,4 @@ Note: You NEED to set these in Settings.cs before doing anything further
 ```csharp
  <bool> Exists()
  //Returns true if the WebHook exists, otherwise returns false
+```
