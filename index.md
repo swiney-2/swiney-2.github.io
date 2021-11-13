@@ -12,8 +12,16 @@ My open source projects, listed in order of how much I like them
 ## Nightscript
 
 Nightscript is a basic coding language base developed in C# ASP.NET.
-[src](https://github.com/swiney-2/nightscript)
+
+https://github.com/swiney-2/nightscript
+
+Oh yeah, did I mention documentation? 😎
+https://swiney-2.github.io/nightscript/docs
+
+I spent too much time on that
 
 ## DiscordWebHook.NET
 
-A C# Discord API wrapper, not many functions but you can modify as you want. [src](https://github.com/swiney-2/DiscordWebHook.NET)
+A C# Discord API wrapper, not many functions but you can modify as you want. 
+
+https://github.com/swiney-2/DiscordWebHook.NET)
